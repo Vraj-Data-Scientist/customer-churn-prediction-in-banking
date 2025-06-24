@@ -100,10 +100,6 @@ Despite a small dataset (10,000 rows) with limited features and noise (36% zero-
    pip install -r requirements.txt
    ```
    Required libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imblearn`, `tensorflow`, `xgboost`.
-3. **Run the Notebook**:
-   - Open `customer-churn-prediction-in-banking.ipynb` in Jupyter Notebook.
-   - Ensure `Churn_Modelling.csv` is in the project directory.
-   - Execute cells sequentially to preprocess data, train models, and evaluate results.
-4. **Hardware Note**: XGBoost uses GPU (`tree_method='hist'`, `device='cuda'`); ANN training is slow without GPU (no GPU detected in notebook).
+
 
 
