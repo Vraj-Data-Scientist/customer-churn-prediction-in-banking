@@ -106,9 +106,4 @@ Despite a small dataset (10,000 rows) with limited features and noise (36% zero-
    - Execute cells sequentially to preprocess data, train models, and evaluate results.
 4. **Hardware Note**: XGBoost uses GPU (`tree_method='hist'`, `device='cuda'`); ANN training is slow without GPU (no GPU detected in notebook).
 
-## References
-- Reichheld, F. F. (2001). *The Loyalty Effect*. Harvard Business Review.
-- XGBoost Documentation, 2025. https://xgboost.readthedocs.io/en/stable/
-- TensorFlow Documentation, 2025. https://www.tensorflow.org/
-- Goodfellow, I., et al. (2016). *Deep Learning*. MIT Press.
-- Hastie, T., et al. (2009). *The Elements of Statistical Learning*. Springer.
+
